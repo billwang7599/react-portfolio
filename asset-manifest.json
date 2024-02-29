@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e928a6ae.css",
+    "main.js": "/react-portfolio/static/js/main.08af855c.js",
+    "static/media/Bill_Wang_Resume.pdf": "/react-portfolio/static/media/Bill_Wang_Resume.35a509685a9a4630e57c.pdf",
+    "static/media/xd.jpg": "/react-portfolio/static/media/xd.3c7eb88135eef8bd6f7f.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.e928a6ae.css.map": "/react-portfolio/static/css/main.e928a6ae.css.map",
+    "main.08af855c.js.map": "/react-portfolio/static/js/main.08af855c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e928a6ae.css",
+    "static/js/main.08af855c.js"
+  ]
+}
