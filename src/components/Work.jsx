@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const Work = () => {
   return (
-    <div className="mt-5 h-[70vh] md:px-7 lg:px-20 overflow-y-scroll">
+    <div className="h-[95%] md:px-7 lg:px-32">
       <div className="mt-[-3rem]">
         <Project
           title="Schedulr"

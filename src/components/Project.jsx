@@ -17,19 +17,23 @@ function Project(props) {
   return (
     <div className="w-full mt-[4rem]">
       <div className="flex w-full h-fit border-slate-950 border-[1px]">
+        {/* Left */}
         <div className="w-[35%] flex p-5 items-center md:text-base text-sm">
           <p> {languages} </p>
         </div>
 
         <div className="flex-auto"></div>
-        <div className="relative w-fit h-fit mt-[-1em] px-4 bg-[length:200px_10px]">
-          <span className="absolute w-full h-[1px] top-[19px] left-0 bg-[#F3F5F9]"></span>
-          <div className="text-2xl relative text-center">
+
+        {/* Title */}
+        <div className="relative w-fit h-fit px-4">
+          <div className="relative w-full h-[2px] bg-[#F3F5F9] top-[-1.5px]"></div>
+          <div className="relative top-[-1.2rem] text-2xl text-center">
             <h1 className="md:text-2xl text-lg"> {props.title} </h1>
           </div>
         </div>
         <div className="flex-auto"></div>
 
+        {/* Right */}
         <div className={`w-[35%] flex items-end pr-2 pb-2`}>
           <div className="flex-auto"></div>
           <div className="flex items-center md:text-base text-sm">

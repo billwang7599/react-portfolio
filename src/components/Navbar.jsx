@@ -9,25 +9,25 @@ const Navbar = ({ setPage }) => {
   const [connect, setConnect] = useState(unselected);
 
   const handleClick = (name) => {
-    if (name == "home") {
+    if (name === "home") {
       setHome(selected);
       setAbout(unselected);
       setWork(unselected);
       setConnect(unselected);
       setPage(["", "hidden", "hidden", "hidden"]);
-    } else if (name == "about") {
+    } else if (name === "about") {
       setHome(unselected);
       setAbout(selected);
       setWork(unselected);
       setConnect(unselected);
       setPage(["hidden", "", "hidden", "hidden"]);
-    } else if (name == "work") {
+    } else if (name === "work") {
       setHome(unselected);
       setAbout(unselected);
       setWork(selected);
       setConnect(unselected);
       setPage(["hidden", "hidden", "", "hidden"]);
-    } else if (name == "connect") {
+    } else if (name === "connect") {
       setHome(unselected);
       setAbout(unselected);
       setWork(unselected);
@@ -56,12 +56,14 @@ const Navbar = ({ setPage }) => {
           Work{" "}
         </button>
       </div>
+      {/*
       <div className="flex-auto flex flex-col items-center">
         <button onClick={() => handleClick("connect")} className={connect}>
           {" "}
           Links{" "}
         </button>
       </div>
+      */}
     </div>
   );
 };
