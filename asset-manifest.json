@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.448e70ce.css",
-    "main.js": "/static/js/main.aab526ce.js",
+    "main.js": "/static/js/main.18af8fb0.js",
     "static/media/Bill_Wang_Resume.pdf": "/static/media/Bill_Wang_Resume.35a509685a9a4630e57c.pdf",
     "index.html": "/index.html",
     "main.448e70ce.css.map": "/static/css/main.448e70ce.css.map",
-    "main.aab526ce.js.map": "/static/js/main.aab526ce.js.map"
+    "main.18af8fb0.js.map": "/static/js/main.18af8fb0.js.map"
   },
   "entrypoints": [
     "static/css/main.448e70ce.css",
-    "static/js/main.aab526ce.js"
+    "static/js/main.18af8fb0.js"
   ]
 }
