@@ -1,5 +1,5 @@
 import React from "react";
-import Job from "./Job";
+import Job from "./components/Job";
 
 const About = () => {
   return (

@@ -1,17 +1,23 @@
 import React from "react";
 import resume from "../assets/Bill_Wang_Resume.pdf";
+import { FiChevronDown } from "react-icons/fi";
 
 const Home = () => {
   return (
     <div className="w-full h-[95%] flex flex-col">
       {/* Intro */}
-      <div className="flex-none md:text-left text-center">
+      <div className="flex-none md:text-left items-center justify-center text-center align-center">
         <p> Hello. I am</p>
         <h1 className="text-5xl md:text-6xl"> Bill Wang</h1>
         <div className="text-xl ">
           <p>Software Developer</p>
           <p>AI Tinkerer</p>
           <p>Engineer</p>
+          <div className="mt-5 flex md:hidden">
+            <span className="flex-auto"></span>
+            <FiChevronDown />
+            <span className="flex-auto"></span>
+          </div>
         </div>
       </div>
       <span className="flex-auto"></span>

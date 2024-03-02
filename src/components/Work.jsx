@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import Project from "./components/Project";
 
 const Work = () => {
   return (
@@ -14,7 +14,7 @@ const Work = () => {
       <Project
         title="reWordle"
         languages={["Python", "PyQT5", "JSON"]}
-        gitLink="https://github.com/lourw/schedulr"
+        gitLink="https://github.com/billwang7599/RoboEdu-HackathonCurriculum"
       />
       <Project
         title="pvim"

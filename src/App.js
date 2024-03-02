@@ -3,20 +3,20 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 //import Connect from "./components/Connect";
-import Particle from "./components/Particle";
+import Particle from "./components/Particle"; 
 import React, { useState } from "react";
 
 function App() {
   const [page, setPage] = useState([" ", " hidden", " hidden", " hidden"]);
 
   return (
-    <div className="p-4 md:p-5 h-screen">
+    <div className="p-1.5 md:p-5 h-screen">
       {/*^ outer wrapper*`/}
       {/*inner wrapper*/}
       <div className="flex flex-col h-full w-full border-[1px] border-black relative px-10 ">
         <Particle />
         {/*Navbar*/}
-        <div className="flex-none mt-10 mb-20 flex overflow-x-auto h-fit w-fit">
+        <div className="flex-none mt-10 mb-20 flex overflow-x-auto h-fit w-full ">
           <Navbar setPage={setPage} />
         </div>
 
