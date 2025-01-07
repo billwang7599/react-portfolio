@@ -16,10 +16,6 @@ function App() {
       <div className="flex flex-col h-full w-full border-[1px] border-black relative px-10 ">
         <Particle />
         {/*Navbar*/}
-        <div className="flex-none mt-10 mb-20 flex overflow-x-auto h-fit w-full ">
-          <Navbar setPage={setPage} />
-        </div>
-
         {/*Main Screen*/}
         <div className="h-full mb-10 overflow-auto">
           <span className={page[0]}>
